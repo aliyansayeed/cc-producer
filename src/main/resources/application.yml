@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Producer
+
+  config:
+    import: "optional:configserver:http://config-server:8000"
+
